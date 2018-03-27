@@ -231,6 +231,10 @@ ul.todo li .buttons button.remove svg .fill {
   fill: #c0cecb;
 }
 
+ul.todo#completed li .buttons button.remove svg .fill {
+  fill: #646478;
+}
+
 ul.todo li .buttons button.remove:hover svg .fill {
   fill: #e85656;
 }
@@ -242,6 +246,10 @@ ul.todo li .buttons button.complete svg .fill {
 ul.todo#completed {
   position: relative;
   padding: 60px 0 0 0;
+}
+
+ul.todo#completed li{
+  color: #646478;
 }
 
 ul.todo#completed:before {
