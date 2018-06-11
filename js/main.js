@@ -1,4 +1,4 @@
-
+//credits to Max Sandelin
 var data = (localStorage.getItem('todoList')) ? JSON.parse(localStorage.getItem('todoList')):{
   todo: [],
   completed: []
